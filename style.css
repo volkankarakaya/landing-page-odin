@@ -65,8 +65,11 @@ nav {
   align-items: center;
 }
 
-.info img {
-  flex: 0 1 0;
+.info .img-container {
+  flex: 1 1 150px;
+  min-width: 150px;
+  height: 150px;
+  border: 8px solid #3882f6;
   border-radius: 8px;
 }
 
